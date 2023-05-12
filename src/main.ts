@@ -1,10 +1,11 @@
 import { createApp } from 'vue'
-import "./style.css"
 import App from './App.vue'
-import './samples/node-api'
+// import './samples/node-api'
+import 'ant-design-vue/dist/antd.css';
+import 'virtual:windi.css';
 
-createApp(App)
-  .mount('#app')
-  .$nextTick(() => {
-    postMessage({ payload: 'removeLoading' }, '*')
-  })
+const app = createApp(App);
+
+app.mount('#app').$nextTick(() => {
+    postMessage({ payload: 'removeLoading' }, '*');
+});
