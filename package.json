@@ -31,7 +31,7 @@
     "typescript": "^5.0.2",
     "unplugin-vue-components": "^0.22.4",
     "vite": "^4.1.4",
-    "vite-plugin-electron": "^0.11.2",
+    "vite-plugin-electron": "^0.12.0",
     "vite-plugin-electron-renderer": "^0.14.1",
     "vite-plugin-windicss": "^1.8.7",
     "vue": "^3.2.47",
